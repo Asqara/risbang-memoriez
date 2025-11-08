@@ -49,63 +49,54 @@ const memories: Memory[] = [
     id: "1",
     type: "photo",
     src: "/images/1.png",
-    caption: "Welcome to Home Karakidz 🏠",
-    date: "01 Agustus 2025",
+    caption: "Welcome to Home Rizgankk 🏠",
+    date: "Lupa Tanggal Berapa Seinget Aku Awal' Banget",
     category:
-      "Seru banget ini moment pertama aku ketemu kalian, jujur aku kayak awikwok banget disini takut ga asik di first meet zoom. Tapi kalian semangat semangat dan mau kenalan abis itu kalian aktif aktif juga aku bangga banget cokk sama karakidz 😍",
+      "Seru banget ini moment pertama kita main ramean full team nongkrong ampe malem wkwkwk ga nyangka ini udah hampiir 1 taun yang lalu 😍",
   },
   {
     id: "2",
     type: "photo",
     src: "/images/2.png",
-    caption: "Perpus Tour! 🍝",
+    caption: "Welcoming Party 🍝",
     date: "Lupa njr tanggal berapa",
     category:
-      "Asik banget cok ini perpus tour btw disini yang bolos gw tandain jangan lupa tour perpus yak..",
-  },
-  {
-    id: "3",
-    type: "video",
-    src: "/videos/jargon.mp4",
-    caption: "Pertama Banget Ketemu Tapi Belum Full Team Kita",
-    date: "Pokoknya waktu ganantara mengudara",
-    category:
-      "Asli ini lucu banget, pertama banget jargon pertama kali ketemu dan kita bersaing dengan anak anak batch 1 tapi kalian ga kalah semangat cokk",
+      "Wkwkwkwkwkw ini kocak banget sih make pancing pancingan kayak orang bego",
   },
   {
     id: "4",
     type: "photo",
     src: "/images/nonton.jpg",
-    caption: "Nonton Bioskop",
+    caption: "Rapat Evaluasi",
     date: "Lupa tanggal berapa ini",
     category:
-      "Njr ini bener bener se tiba tiba itu abis malem malem keujanan dan kita asbun pengen nonton kerennya ga wacana kelaazz",
-  },
-  {
-    id: "5",
-    type: "photo",
-    src: "/images/lari.jpg",
-    caption: "Lari Pagi",
-    date: "Lupa tanggal berapa",
-    category: "Lari pagi buat yang mau mau ajah... yang sehat sehat aja",
+      "Inget banget disini ngerencanain mateng mateng buat proker risves 3 cuan cuan cuan",
   },
   {
     id: "6",
     type: "photo",
     src: "/images/first.jpg",
-    caption: "First Meet Full Team",
-    date: "06 Agustus 2025",
+    caption: "Buat Video Profile Ekse",
+    date: "-",
     category:
-      "Aku disini seneng banget ketemu kalian semua kayak anjr kalian nyata cuman -2 akhtar dan sekar...",
+      "Yayayaya ini no konsep anjr, terus inget banget pas ditayangin pada diem semua",
   },
   {
     id: "7",
     type: "photo",
     src: "/images/day1.jpg",
-    caption: "NJR INI DAY 1 MPKMB",
+    caption: "NJR INI DAY 1 RAPAT",
     date: "06 Agustus 2025",
+    category: "Ini rapat pertama bareng kakak kakak risbang 60 gasii??",
+  },
+  {
+    id: "5",
+    type: "photo",
+    src: "/images/lari.jpg",
+    caption: "Risbang 100",
+    date: "-",
     category:
-      "WKWKWK seru gaaa mpkmb nya asik kann, semangat terus di perjalanan kalian yak gw bangga banget cok sama klean bisa cepet bonding dan kenalan",
+      "WKWKWK moment hambur hambur duit dan moment setelah selesai ngelingker sampe sore wkwkw",
   },
 ];
 
@@ -254,7 +245,7 @@ const StickyNote = ({
       <p className="text-gray-800 font-handwriting text-sm pt-2">
         {message.content}
       </p>
-      <div className="text-xs text-gray-600 mt-2 text-right">- Karakidz</div>
+      <div className="text-xs text-gray-600 mt-2 text-right">- Rizgankk</div>
     </div>
   );
 };
@@ -334,8 +325,8 @@ const MemoryLaneApp = () => {
   // Navigation
   const navItems = [
     { id: "landing", icon: Home, label: "Home" },
-    { id: "timeline", icon: Clock, label: "Memories Karakidz" },
-    { id: "messages", icon: MessageCircle, label: "Buat Karakidz" },
+    { id: "timeline", icon: Clock, label: "Memories Rizgankk" },
+    { id: "messages", icon: MessageCircle, label: "Buat Rizgankk" },
     { id: "guestbook", icon: Users, label: "Menfess" },
     { id: "closing", icon: Sparkles, label: "Penutup" },
   ];
@@ -349,7 +340,7 @@ const MemoryLaneApp = () => {
             <div className="text-center z-10 px-6">
               <div className="mb-8">
                 <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 bg-clip-text text-transparent mb-4">
-                  Karakidz Memory Lane
+                  Rizgankk Memory Lane
                 </h1>
                 <div className="text-xl md:text-2xl text-gray-700 font-light">
                   <TypewriterText />
@@ -372,8 +363,9 @@ const MemoryLaneApp = () => {
         return (
           <div className="min-h-screen py-20 px-6">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                Kenangan Singkat Moment Moment Kita
+              <h2 className="text-xl md:text-3xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                Kenangan Singkat Moment Moment Kita Sebenernya Ada Banyak Yang
+                Mau Request Req Ke Wa Gw ya Nanti Gw Up Kesini
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -385,9 +377,9 @@ const MemoryLaneApp = () => {
                   />
                 ))}
               </div>
-              <div className="mt-20 flex justify-center px-4">
+              <div className="mt-20 flex flex-col justify-center px-4">
                 <Link
-                  href="https://drive.google.com/drive/folders/1U6D9Q7xdd7w1jyMh39ut_KGBidC47Qc3" // ganti dengan link Google Drive kamu
+                  href="https://drive.google.com/drive/folders/1ExlpRMrOd-l9a8DzFmk1obYaL_3QpS0K" // ganti dengan link Google Drive kamu
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-bold text-center mb-12
@@ -397,6 +389,18 @@ const MemoryLaneApp = () => {
                    text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
                 >
                   Buka Kenangan Kita Full Memories Disini
+                </Link>
+                <Link
+                  href="https://drive.google.com/drive/folders/1nYIdYzNax36J4PmmRos0zPm1Zs0GklwE" // ganti dengan link Google Drive kamu
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-center mb-12
+                   bg-gradient-to-r from-red-600 to-blue-600
+                   bg-clip-text text-transparent
+                   hover:opacity-80 transition-all duration-300
+                   text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+                >
+                  Atau Disini
                 </Link>
               </div>
             </div>
@@ -414,18 +418,17 @@ const MemoryLaneApp = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                 <div className="lg:col-span-2 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl p-8 shadow-lg">
                   <h3 className="text-2xl font-bold mb-4 text-gray-800">
-                    Untuk Karakidz
+                    Untuk Rizgankk
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Semangat ya jalanin PPKU nya, aku yakin kalian bisa menjadi
-                    orang orang keren orang orang hebat, gw pesen jangan fomo
-                    ikut ini ikut itu siihh
+                    Makasih ya temen temen udah mau membersamai selama ini, aku
+                    tau pasti diantara kalian ada dongkol kesel sama kita para
+                    kapten, semangat buat pelayaran selanjutnya kalian!
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Terima kasih sudah menjadi cerita dalam perjalanan MPKMB
-                    yaa, jangan lupa sama temen pertama kalian dikuliah sekarang
-                    sering sering main ini bukan perpisahan guys yaaa..., JANGAN
-                    LUPA NEXT KITA MAKRAB YAK
+                    Terima kasih sudah menjadi cerita dalam perjalanan kuliah
+                    yang singkat ini jangan lupa nanti kalau udah sukses info
+                    loker yak!!
                   </p>
                 </div>
 
@@ -434,11 +437,11 @@ const MemoryLaneApp = () => {
                     Harapan Aku Buat Kalian -
                   </h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>Tugas Jangan Lupa Dikerjain</li>
-                    <li>Jangan Fomo Ikut Organisasi</li>
+                    <li>Jangan Suka Ngomongin Orang</li>
+                    <li>Jangan Suka Telat</li>
                     <li>Agendakan Nge Vila yakk</li>
                     <li className="font-bold">
-                      Terpenting, Jangan lupa Karakidz dan Jangan Asing!!!
+                      Terpenting, Jangan lupa Rizgankk dan Jangan Asing!!!
                     </li>
                   </ul>
                 </div>
@@ -469,7 +472,7 @@ const MemoryLaneApp = () => {
           <div className="min-h-screen py-20 px-6">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-teal-600 to-green-600 bg-clip-text text-transparent">
-                Kata kata dong buat karakidz dan aku
+                Kata kata dong buat Rizgankk dan aku
               </h2>
 
               <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
@@ -514,12 +517,12 @@ const MemoryLaneApp = () => {
             <div className="text-center px-6 z-10">
               <div className="mb-12">
                 <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 bg-clip-text text-transparent mb-6">
-                  Terima Kasih KARAKIDZ!
+                  Terima Kasih Rizgankk!
                 </h1>
                 <div className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                  Perjalanan di Memory Lane ini adalah cerminan dari cinta dan
-                  kebahagiaan yang kita bagi bersama. Kalian adalah anugerah
-                  terbesar dalam hidup kami.
+                  Website ini ya aku buat h- berapa jam jadi wajar kalau jelek
+                  dan full gpt wkwkwk semoga suka deh jujur disini gw bingung
+                  mau ngasih apa lagi bokek
                 </div>
               </div>
 
@@ -530,7 +533,7 @@ const MemoryLaneApp = () => {
                   untuk kalian akan abadi selamanya."
                 </p>
                 <p className="text-2xl font-bold bg-gradient-to-r from-red-500 to-pink-600 bg-clip-text text-transparent">
-                  - Kata Kata Diatas Chat GPT
+                  - GPT 2025
                 </p>
               </div>
 
